@@ -8,8 +8,8 @@ import ProjectTag from "./ProjectTag";
 const projectsData = [
   {
     id: 1,
-    title: "Project 1",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Blog Web",
+    description: "Created a blog web with CMS.",
     image: "/image/projects/blog.PNG",
     tag: ["All", "Back End"],
     gitUrl: "/",
@@ -17,8 +17,8 @@ const projectsData = [
   },
   {
     id: 2,
-    title: "Project 2",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Company Profile",
+    description: "Created a company profile with NextJS.",
     image: "/image/projects/company-profile.PNG",
     tag: ["All", "Front End"],
     gitUrl: "/",
@@ -26,8 +26,8 @@ const projectsData = [
   },
   {
     id: 3,
-    title: "Project 3",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    title: "Landing Page",
+    description: "Created a landing page with NextJS.",
     image: "/image/projects/landing-page.PNG",
     tag: ["All", "Front End"],
     gitUrl: "/",
