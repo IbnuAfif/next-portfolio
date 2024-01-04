@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 
-const Hero = () => {
+const HeroSection = () => {
   return (
     <div className="lg:py-16 flex flex-col justify-between sm:flex-row">
       <motion.div initial={{ opacity: 0, scale: 0.5 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.5 }} className="col-span-7 place-self-center text-center sm:text-left justify-start">
@@ -31,4 +31,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default HeroSection;
